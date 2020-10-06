@@ -1,0 +1,10 @@
+list.files()
+grep(".csv",list.files(),value=T)
+getwd()
+b<-read.csv("bank-data.csv")
+b
+nrow(b)
+ncol(b)
+colnames(b)
+str(b)
+plot(b$age,b$income)
