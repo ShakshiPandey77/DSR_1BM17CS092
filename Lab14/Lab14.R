@@ -3,7 +3,7 @@
 install.packages("e1071")
 library(e1071)
 getwd()
-b<-read.csv("bayes.csv")
+b<-read.csv("/Users/apple/Desktop/bayes.csv")
 b
 str(b)
 class(b)
